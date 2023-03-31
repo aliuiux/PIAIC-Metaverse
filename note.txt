@@ -1,0 +1,400 @@
+/*
+PIAIC
+✅ LEC#1     12-2-2023
+
+Youtube Channel: Panaverse DAO
+
+Programming LANG: Binary(Computer)
+
+Transpiler
+Compiler
+
+Javascript: user interface interaction
+1995 World War, 10 Days m bni h JS
+✅ Hold Pressure
+
+Typescript is superset of JS
+Chrome, Brave, Safari, Opera
+
+JS is must in this course
+3rd Party Library = Cross Platform =  Node JS
+server side and clienr side
+
+node -v
+Version=
+dir
+cd
+cmd> identify Path Folder
+
+node index.js
+
+Typescript::
+npm install -g typescript
+tsc -version
+tsc --init
+
+
+CMD: node q1.js {Destination pathname}
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+✅ LEC#2     19-2-2023
+
+Node is Package 
+JS is supportable 
+
+Settings installed of Typescript;
+
+
+Beginner: 
+
+
+"Zia is handsome boy"
+
+
+Understand Variables Strategy;
+
+Intialize, Declare Variables
+
+""Variable name should be unique""
+
+Function Declaration
+Variable Declaration 
+
+String and Integer Values"
+
+
+Push Code in Repositry 
+GITHUB Desktop"
+
+Assignment Q/Ans#
+
+Do work in folders/ subfiles
+
+
+GIT= version control system;
+
+point to >> parent directory
+ 
+CMD#1 npm init -y
+
+CMD#2 tsc --init
+
+>>node -d
+
+CMD#3  npm i @types node -D
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+✅ LEC#3   26-2-2023
+
+Annotations: Variable
+
+let myName:string = "Ali";
+let myNumber:number ="8";
+
+
+Explicit & Implicit Difference;
+
+Explicit: automatically holds data type [let num: number 5]
+Implicit: Value assigned : data type     [let num =5]
+
+Comments (*/  /*)
+
+Statements: any single line;
+
+Scope: Curly Braces 
+
+Block { };
+Functional: Anywhere;
+
+✅ Concept: JS (Hoisting) TS??
+
+JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code.
+
+use let and const :::: don;t use var 
+
+Primitive Data Types;
+
+✅ String: Use to store a text value
+✅ Number: Use to store numeric value
+✅ Boolean: Use to store(True,False)
+✅ Undefined: has not been defined
+✅ Null: variable is empty or unknown value
+
+Template Literals
+
+A new and fast way to deal with strings; especially dynamic strings
+Single and Double Tick `
+
+✅ Analyzing and Modifying Data Types
+
+typeof (Reserve Keyword);
+
+✅ Operators
+
+Addition
+Subtraction
+Multiplication
+Division
+Power
+//Arithmetic Operations
+
+Modulus Operator
+
+Functions::
+Increment/Decrement
+
+({[ ]})
+
+
+Comparison operators used to compare value of variables 
+
+
+=        Assignment 
+==     Comparison without type checking
+===   Comparison with type checking
+
+== (loosely equal)
+=== (strongly equal)
+
+
+void= jo value return ni krta 
+Paramter = jo value pass krty h 
+
+*/
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+✅ LEC#4   05-3-2023
+
+
+if else conditons
+functions
+Array
+
+Last Class Topic's cover
+If else
+If else if
+Nested if
+Array
+Array methods (push, pop , shift , unshift, slice , splice)
+Slides 46 to 62
+
+
+Assignment
+
+Write a program to Check Whether a Character is a Vowel or Consonant
+
+Explore some other Arrays methods, list them and make an example with every method
+
+
+
+We started the course in Quarter 1 of Web 3 and Metaverse program by learning TypeScript. We will continue learning TypeScript. From the next class, we will also start exploring Web 3.0 technologies from a user's perspective:
+
+https://docs.google.com/presentation/d/1FSbr9aJwO0-fmZHqWy_eHO2N_jwJLmQCy4cG8rd4ctw/edit?usp=sharing 
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+✅ LEC#5   12-3-2023
+
+
+Today class Topic's
+
+Loops
+Nested loops
+
+https://github.com/panaverse/learn-typescript 
+
+Now we will this repository  
+
+step00_helloword (complete)
+
+
+Assignment
+
+Rest operators
+For loop task discussed in class
+
+Reading material in step00_helloworld
+Step00a_json_objects
+
+
+
+
+
+Steps
+Create a  new folder
+1 : npm init -y
+2 : tcs --init 
+3 : add .gitignore file 
+4: changes in tsconfig.json ("target":"ES2022"
+ "module": "Nodenext" 
+"outDir" : "./lib")
+
+
+Install these extensions in your VS code for better coding experience
+
+Bracket Pair Colorizer
+Better Comments
+Snippets
+CSS Peak
+Prettier
+Relative Path
+GitLens
+Material Theme
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+✅ LEC# 6 19-3-2023
+
+
+Libraries;
+Calculator, 
+
+
+ver 4.9
+
+
+npm i typescript
+
+npm i typescript -g
+(for development)
+
+
+difference between dot and square bracket notation in objects javascript ?
+
+In JavaScript, there are two ways to access properties of an object: dot notation and square bracket notation. Here's a breakdown of the differences between the two:
+
+Dot notation:
+Uses a dot . to access an object property.
+Property name must be a valid identifier (i.e. it cannot start with a number and cannot contain special characters).
+Easier to read and write than square bracket notation.
+Can be used with TypeScript for type checking.
+
+Example:
+const person = { name: "John", age: 30 };
+console.log(person.name); // Output: "John"
+
+Square bracket notation:
+Uses square brackets [] to access an object property.
+Property name can be any string, including a variable containing the property name.
+Can be used to access properties with names that are not valid identifiers (e.g. properties with spaces or special characters).
+More flexible than dot notation.
+
+Example:
+const person = { name: "John", age: 30 };
+console.log(person["name"]); // Output: "John"
+const propertyName = "age";
+console.log(person[propertyName]); // Output: 30
+
+In summary, dot notation is simpler to read and write, while square bracket notation is more flexible and allows for accessing properties with non-standard names
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+✅ LEC#7 26-3-2023
+
+Install metamask Chrome Extension
+
+https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn
+
+
+Explore Web 3 
+
+https://youtu.be/KaFxgT9qWfk
+
+This is a Summarized Video of Class 6th of PIAIC Web 3.0 and Metaverse Program in Which .gitignore File and its Use Case is Discussed in Details.
+
+Topic's cover in today class
+
+Step 002 to step 3d_chalk
+
+Objects 
+Import and export 
+Inquirer prompt
+Chalk
+
+https://github.com/panaverse/learn-typescript
+
+Assignment 
+
+1. Make a calculator, take inputs from user and also operator using the inquirer package, 
+
+2. Write a Program to Check Whether a Character is a Vowel or Consonant , take input from user
+
+
+
+Object Methods Typescript mein kisi object ke andar mojood functions ko refer karta hai. Jab hum kisi object ke andar kisi function ko define karte hain to hum usse object method kehte hain.
+
+Is se hum object ko manipulate karne ke liye kisi specific kaam ko perform kar sakte hain. Object methods aam tor par object-oriented programming (OOP) mein use kiye jate hain.
+
+For example, agar humne ek object banaya hai jis mein 'name' aur 'age' properties hain aur hum uss object ke andar 'getDetails' function ko define karna chahte hain to hum is tarah se kar sakte hain:
+
+
+const person = {
+  name: 'Ali',
+  age: 25,
+  getDetails() {
+    return `My name is ${this.name} and I am ${this.age} years old.`;
+  }
+};
+Is tarah se hum 'getDetails' function ko person object ke andar define kar rahe hain aur is function mein 'name' aur 'age' properties ko access kar rahe hain. Hum iss function ko call kar ke person object ki details hasil kar sakte hain.
+
+
+console.log(person.getDetails());
+Output:
+
+My name is Ali and I am 25 years old.
+what is inquirer in typescript?
+
+
+Inquirer Typescript mein ek utility library hai jo command-line applications mein input aur output ke liye use ki jaati hai. Ye library user se input lena aur uska response process karna asaan banati hai. Iske liye, ye various prompt types provide karta hai jaise ki yes/no, list, checkbox, input, etc. Is library ke istemaal se user-friendly CLI (Command Line Interface) banane mein madad milti hai.
+
+
+
+npm i chalk
+
+1) make calculaor by taking input by user;
+2) identify vowels/consonants by taking input by user;
+
+Inquirer.js is a popular npm package for building interactive command-line interfaces (CLIs) using Node.js. It provides a powerful set of tools for creating prompts and managing user input in a way that is intuitive and easy to use.
+
+Inquirer.js allows developers to create a series of prompts that guide the user through a set of questions, displaying options and receiving input in a variety of formats (e.g., text, checkbox, list, etc.). It also supports various types of validation to ensure that the user provides the expected input.
+
+Inquirer.js is commonly used in Node.js applications for tasks such as setting up a project, configuring settings, and interacting with APIs or databases. It simplifies the process of getting user input, making it more user-friendly and efficient.
+
+
+
+Inquirer.js provides several types of prompts that developers can use to gather user input in a command-line interface. Here are some of the most common types:
+
+input: This prompts the user to enter a single line of text.
+
+number: This prompts the user to enter a number.
+
+confirm: This prompts the user to answer "yes" or "no" to a question.
+
+list: This prompts the user to choose an option from a list.
+
+rawlist: This is similar to list, but displays the options without numbers or bullets.
+
+checkbox: This prompts the user to select one or more options from a list.
+
+password: This prompts the user to enter a password, with the input hidden from the console.
+
+Each prompt type has its own set of options and features that can be customized, such as the default value, validation rules, and message displayed to the user. By using these prompts, developers can create a user-friendly and intuitive command-line interface that is easy to use and understand.
+
+https://github.com/SBoudrias/Inquirer.js/#objects 
+
